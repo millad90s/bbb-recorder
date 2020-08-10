@@ -93,6 +93,16 @@ When you will run the command that time `Chrome` browser will be open in backgro
 
 **Note: It will use extra CPU to process chrome & ffmpeg.** 
 
+#################################
+##### How run using docker ######
+# 1. clone the project 
+ git clone https://github.com/jibon57/bbb-recorder.git
+ 
+# 2. build an image 
+ docker build . -t bbb-record
+ 
+# 3. run the container 
+docker run bbb-record export.js https://bbb.example.com/playback/presentation/2.0/playback.html?meetingId=b2b172d5750ed55d7de7e758b81c221140b6891c-1594719526456
 
 ## Looking for Bigbluebutton shared hosting?
 
